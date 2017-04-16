@@ -9,7 +9,7 @@ library(devtools) # If the library devtools is not installed please install it.
 devtools::install_github("yotamshemtov/SCimpute")
 ```
 ### Get started
-Look the the help file of the function **sc_impute** for examples.
+Look the the help file of the function *sc_impute* for examples.
 
 
 
