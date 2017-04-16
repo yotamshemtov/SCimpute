@@ -1,0 +1,14 @@
+Package: SCimpute
+Type: Package
+Title: Imputes SC codes from offense statute and class (e.g., M, F, I)
+Version: 0.1.0
+Author: Yotam Shem-Tov
+Maintainer: Yotam Shem-Tov <shemtov@berkeley.edu>
+Description: Imputes SC codes from offense statute and class (e.g., M, F, I)  
+    Use four spaces when indenting paragraphs within the Description.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr
+RoxygenNote: 5.0.1
