@@ -17,6 +17,15 @@
 #' charge.code = c( "20002(a) VC/M", "Drugs - 647(f) PC/M", "245(a)(1) PC/F" )
 #' charge.class = c( "M", "M","F" )
 #' sc_impute(charge.code, charge.class)
+#'
+#'
+#' ### Example 3:
+#' statutes <- data.frame(
+#' charge.code = c( "20002(a) VC/M", "Drugs - 647(f) PC/M", "245(a)(1) PC/F", "245(a)(1) PC/F","245(a)(1) PC/F" )
+#' charge.class = c( "M", "M","F", "F","F" )
+#' )
+#' statutes_sc = sc_impute(charge.code, charge.class)
+#' head(statutes_sc)
 
 sc_impute <- function(charge.code, charge.class) {
 
